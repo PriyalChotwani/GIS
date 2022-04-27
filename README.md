@@ -37,21 +37,39 @@ The datasets are imported and combined to perform the analysis. Calgary Yearly C
 
 ##### Question 1: What is the number of crime incidents in each community and how does it change every year?
 Following Figure represents the number of incidents in each community where the size is Incidents, Geo Dimension is the community location, and the Animation is the Year. The graph tells that the crime rate is increasing with passing years, especially in Beltline, Downtown Commercial Core & Forest Lawn. These are the areas with highest incidents reported and hence, these are least preferable communities. In 2012 the least number of incidents were reported in Stoney & Livingston whereas in 2017 the least incidents were reported in Livingston and Ogden shop. Overall, Livingston can be the most preferable community.
+<p align="center">
+ <img src= "Images/GISQ1.png">
+</p>
 
 ##### Question 2: Which areas have the highest incidents reported for thefts and robberies?
 Figure represents the incidents reported for thefts and robberies. Geo Dimension is the community location, size represents the incidents, and the color shows the crime categories (Commercial Robbery, Street Robbery, Theft of Vehicle, and Theft from Vehicle). The graph shows that the theft of vehicle is most common crime, while theft from vehicle is most common in left part of the Calgary map. There are only few cases where theft form vehicle is present while theft of vehicle is not reported for e.g., in Aspen woods, 136 cases if theft from vehicle while none of theft of vehicle. Higher number of incidents are reported of theft from vehicle as compared to theft of vehicle. Also, more incidents are reported of street robbery as compared to commercial robbery.
+<p align="center">
+ <img src= "Images/GISQ2.png">
+</p>
 
 ##### Question 3: Does the number of incidents for thefts and robberies increase or decrease with every year?
 Figure represents the incidents reported for thefts and robberies in each year. Geo Dimension is the community location, size represents the incidents, color shows the crime categories (Commercial Robbery, Street Robbery, Theft of Vehicle, and Theft from Vehicle) and animation is Year. Only certain crimes categories are reported in certain areas in the beginning i.e., 2012 but as years pass, with the increase in number of incidents, crime categories have also increased in the communities, especially theft of vehicle. Theft from vehicle was more common in the initial years but as years passed more incidents of vehicle thefts were reported. Besides this, street robberies have remained constant over the years while commercial robberies have increased a bit in the later years.
+<p align="center">
+ <img src= "Images/GISQ3.png">
+</p>
 
 ##### Question 4: Which crime category is reported the most and the least for each area respectively?
 Figure represents the crime categories reported in all the communities in the form of pie to better understand which crime categories are most common in each area. Geo dimension is community location, size is incidents, and color is crime category. Social Disorder is excluded in this case to better understand about the other crime categories as it took most of the pie area. To focus on the areas with highest incidents reported i.e., Beltline and Downtown Commercial Core: Physical Disorder, Theft from Vehicle, Assault, Commercial Break and Enter and are the top crime categories. All the categories are reported in these areas except commercial robbery. In few other areas residential break and enter are also the reported crime categories. Overall, in all the community street robbery has the least incidents reported.
+<p align="center">
+ <img src= "Images/GISQ4.png">
+</p>
 
 ##### Question 5: What is the measure of crime incidents per 1000 people in 2017?
 In the following map, there are 2 layers, where layer 1 is a pie chart representing Crime per 1000 in 2017 and the color is crime category. Layer 2 is a bubble chart which shows the population of each community through the size of each bubble. Even though in previous charts Beltline seemed to be the community with highest incidents reported, but this graph sheds the light that there are many other communities which has highest crime per 1000 in 2017 which is either equal or surpasses the population of that community. Meadowlark Park is one such example. Even some communities with less population have equivalent number of crimes reported per 1000. Ramsay is one such example. In case of Beltline the population is very high in comparison to the crimes reported per 1000.
+<p align="center">
+ <img src= "Images/GISQ5.png">
+</p>
 
 ##### Question 6: Are the police stations well distributed to respond quickly to high crime areas? Are there any communities which may not be well served?
 In the following map, there are 2 layers, where layer 1 is a bubble chart representing number of incidents reported and the color shows the crime category except social disorder. Layer 2 is a marker which shows the police offices located in the communities. Even though there are police stations in small gaps and its well distributed but there should be more police stations in the areas with much higher crime rate for the safety of people and in cases of emergency. Such as there should be one in 16 Avenue Northwest which is close to Downtown Commercial core with higher number of incidents reported and higher per capita measure of crimes. Similarly with areas near Sunalta, the service should be available more quickly which requires more police stations in these areas. Also, from the map it seems like Glenmore Trail Southeast is somewhat ignored as there is no police station in this area, which may be due to very few crimes reported.
+<p align="center">
+ <img src= "Images/GISQ6.png">
+</p>
 
 ## Analysis and Critique of the Tool
 
